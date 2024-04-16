@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao ul {
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.caixa-infos {
+    display: flex;
+    gap: 10px;
+}
+
+.caixa-infos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.estatisticas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estatisticas span i {
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+}
+
+.estatisticas strong {
+    display: block;
+}
+
+.redes {
+    gap: 20px;
+    font-size: 40px;
+}
+
+.redes ul {
+    padding: 0;
+}
+
+.redes ul a {
+    text-decoration: none;
+}
+
+.repositorios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 10px;
+}
+
+.repositorio {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(50, 50, 255);
+    text-align: center;
+}
+
+.repositorio .estatisticas-repo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sugestoes {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.colegas {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pessoa img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#secao1 h3 {
+    color: rgb(50, 50, 255);
+}
+#secao1 h1 img{
+    display: flex;
+    justify-content: center;
+}
+
+/* Media queries para telas médias */
+@media screen and (max-width: 768px) {
+    .navegacao ul {
+        display: none;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa-infos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navegacao ul {
+        font-size: 20px;
+    }
+
+    .redes {
+        font-size: 30px;
+    }
+
+    .repositorios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .colegas {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+/* Media queries para dispositivos móveis */
+@media screen and (max-width: 480px) {
+    .caixa-infos img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .navegacao ul {
+        font-size: 18px;
+    }
+
+    .redes {
+        font-size: 25px;
+    }
+
+    .repositorios {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .repositorio {
+        font-size: 14px;
+    }
+
+    .pessoa img {
+        width: 80px;
+        height: 80px;
+    }
+}
