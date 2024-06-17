@@ -8,7 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.perfil{
+    margin-top: 50px;
+}
 .cabecalho {
+    margin-top: 20PX;
     display: flex;
     justify-content: space-between;
 }
@@ -41,11 +45,14 @@ html {
     justify-content: space-between;
 }
 
+.estatisticas span {
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
 .estatisticas span i {
     font-size: 25px;
-    margin: 0%;
-    padding: 0%;
-    text-align: right;
 }
 
 .estatisticas strong {
@@ -112,9 +119,11 @@ html {
 #secao1 h3 {
     color: rgb(50, 50, 255);
 }
+
 #secao1 h1 img{
     display: flex;
     justify-content: center;
+    margin-left: 10px;
 }
 
 /* Media queries para telas médias */
@@ -176,9 +185,9 @@ html {
     .repositorio {
         font-size: 14px;
     }
-
+    
     .pessoa img {
         width: 80px;
-        height: 80px;
+        height: 80px;6
     }
 }
