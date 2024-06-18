@@ -31,7 +31,7 @@ function getRepos(){
                 <a class="repositorio" href="repositorios.html?name=${repo.name}">
                     <div style="text-align: center;"><strong>${repo.name}</strong></div>
                     <img src="/assets/imgs/Defenda a Nave.png" alt="">
-                    <p>Repositorio do meu trabalho De Laboratio de inicialização a programação  </p>
+                    <p>...</p>
                     <div class="estatisticas-repo">
                         <span><i class="ph ph-star"></i>${repo.stargazers_count}</span>
                         <span><i class="ph ph-users"></i>${repo.watchers}</span>

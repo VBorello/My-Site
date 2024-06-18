@@ -7,10 +7,22 @@
 html {
     scroll-behavior: smooth;
 }
+.color{
+    background-color: #2e92b927;
+}
 
 .perfil{
     margin-top: 50px;
 }
+
+.top{
+    margin-top: 200px;
+}
+
+.top2{
+    margin-top: 200px;
+}
+
 .cabecalho {
     margin-top: 20PX;
     display: flex;
@@ -29,6 +41,7 @@ html {
 }
 
 .caixa-infos {
+    font-size: 20px;
     display: flex;
     gap: 10px;
 }
@@ -48,7 +61,6 @@ html {
 .estatisticas span {
     margin-left: 20px;
     font-size: 20px;
-    
 }
 
 .estatisticas span i {
@@ -82,7 +94,7 @@ html {
 .repositorio {
     text-decoration: none;
     color: black;
-    border: 1px solid rgb(50, 50, 255);
+    border: 2px solid rgb(50, 50, 255);
     text-align: center;
 }
 
@@ -116,6 +128,7 @@ html {
     object-fit: cover;
 }
 
+
 #secao1 h3 {
     color: rgb(50, 50, 255);
 }
@@ -125,6 +138,11 @@ html {
     justify-content: center;
     margin-left: 10px;
 }
+
+.footer{
+    margin-top: 100px;
+}
+
 
 /* Media queries para telas médias */
 @media screen and (max-width: 768px) {

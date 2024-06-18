@@ -6,6 +6,7 @@ const bio = document.querySelector(".bio")
 const createdAt = document.querySelector(".createdAt")
 const language = document.querySelector(".language")
 const link = document.querySelector(".link")
+const desc = document.querySelector(".descrição")
 
 function getConteudos(){
     fetch (`https://api.github.com/repos/VBorello/${myParam}`)
@@ -20,6 +21,7 @@ function getConteudos(){
             link.textContent = data.git_url
             link.setAttribute("src", data.git_url)
             language.textContent = data.language
+            descrição.textContent = data.descrição
         })
 }
 
