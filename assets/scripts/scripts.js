@@ -26,21 +26,33 @@ function getRepos(){
         return res.json()
     })
     .then((data) => {
-        data.forEach(repo => {
+        data.forEach((repo, index) => {
             reposiotios.innerHTML += `
                 <a class="repositorio" href="repositorios.html?name=${repo.name}">
                     <div style="text-align: center;"><strong>${repo.name}</strong></div>
-                    <img src="/assets/imgs/Defenda a Nave.png" alt="">
+                    <img src="/assets/imgs/repo${index + 1}.jpeg" alt="">
                     <p>...</p>
                     <div class="estatisticas-repo">
                         <span><i class="ph ph-star"></i>${repo.stargazers_count}</span>
-                        <span><i class="ph ph-users"></i>${repo.watchers}</span>
                     </div>
                 </a>
                 
             `
         })
     })
+
+    function getCarouselFriends(){
+        fetch('https://b3dcc084-c1bd-4888-affc-821bc452d9f0-00-39di1qxwm03ir.kirk.replit.dev')
+        .then (res => {
+            return res.json()
+        })
+        .then((data) => {
+            data.forEach((repo, index) => {
+                dbJson.innerHTML =+
+                
+            })
+        })
+    }
 }
 
 
