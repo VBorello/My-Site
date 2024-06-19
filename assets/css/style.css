@@ -47,8 +47,13 @@ html {
     gap: 10px;
 }
 
+.followers{
+    display: contents;
+    padding: auto;
+}
+
 .perfilBox{
-    background-color: rgba(91, 90, 179, 0.281);
+    background-color: rgb(91, 90, 179, 0.281);
     border-radius: 10%;
     -moz-border-radius: 10px;
     padding: 10px; 
@@ -155,7 +160,8 @@ html {
 }
 
 .repositorio img{
-    width: 450px;
+    width: 460px;
+    border-radius: 10px;
 }
 
 .sugestoes {
