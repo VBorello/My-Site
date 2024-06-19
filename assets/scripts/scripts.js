@@ -40,19 +40,6 @@ function getRepos(){
             `
         })
     })
-
-    function getCarouselFriends(){
-        fetch('https://b3dcc084-c1bd-4888-affc-821bc452d9f0-00-39di1qxwm03ir.kirk.replit.dev')
-        .then (res => {
-            return res.json()
-        })
-        .then((data) => {
-            data.forEach((repo, index) => {
-                dbJson.innerHTML =+
-                
-            })
-        })
-    }
 }
 
 

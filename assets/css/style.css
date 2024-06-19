@@ -8,11 +8,18 @@ html {
     scroll-behavior: smooth;
 }
 .color{
-    background-color: #2e92b927;
+    background-color: #2e5ab93f;
 }
 
 .perfil{
     margin-top: 50px;
+}
+
+.BackH1{
+    padding: 5px;
+	background-color: rgba(91, 90, 179, 0.281);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
 .top{
@@ -29,6 +36,10 @@ html {
     justify-content: space-between;
 }
 
+.cabecalho img{
+    width: 360px;
+}
+
 .navegacao ul {
     font-size: 25px;
     display: flex;
@@ -37,10 +48,11 @@ html {
 }
 
 .perfilBox{
-    background-color: rgb(220, 206, 234);
+    background-color: rgba(91, 90, 179, 0.281);
     border-radius: 10%;
+    -moz-border-radius: 10px;
     padding: 10px; 
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .perfilBox a{
@@ -48,10 +60,11 @@ html {
 }
 
 .repositorosBox{
-    background-color: rgb(220, 206, 234);
+    background-color: rgba(91, 90, 179, 0.281);
     border-radius: 10%;
+    -moz-border-radius: 10px;
     padding: 10px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .repositorosBox a{
@@ -59,11 +72,12 @@ html {
 }
 
 .sugeridosBox{
-    background-color: rgb(220, 206, 234);
+    background-color: rgba(91, 90, 179, 0.281);
     border-radius: 10%;
+    -moz-border-radius: 10px;
     padding: 10px;
     text-decoration: none;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .sugeridosBox a{
@@ -78,13 +92,15 @@ html {
     font-size: 20px;
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .caixa-infos img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 19%;
+    -moz-border-radius: 10px;
 }
 
 .estatisticas {
@@ -128,7 +144,7 @@ html {
 .repositorio {
     text-decoration: none;
     color: black;
-    border: 2px solid rgb(50, 50, 255);
+    border: 3px solid rgb(50, 50, 255);
     text-align: center;
 }
 
@@ -244,6 +260,6 @@ html {
     
     .pessoa img {
         width: 80px;
-        height: 80px;6
+        height: 80px;
     }
 }
