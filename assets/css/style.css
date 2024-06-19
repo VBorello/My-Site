@@ -203,6 +203,9 @@ html {
     margin-top: 100px;
 }
 
+.pessoa{
+    display: flex;
+}
 
 /* Media queries para telas médias */
 @media screen and (max-width: 768px) {
