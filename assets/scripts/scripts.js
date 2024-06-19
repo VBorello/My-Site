@@ -89,4 +89,4 @@ function getColegas() {
  getConteudos()
  getRepos()
  getRecomendacoes()
- getcoloegas()
+ getColegas()
